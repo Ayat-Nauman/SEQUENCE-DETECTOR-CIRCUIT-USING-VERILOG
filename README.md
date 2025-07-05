@@ -14,22 +14,7 @@ This project implements a sequence detector in Verilog HDL that identifies the s
 ### Requirements
 - Verilog simulator (Icarus Verilog, ModelSim, etc.)
 - Waveform viewer (GTKWave) for viewing simulation results
-
-### How to Run
-1. Clone the repository
-2. Compile with your Verilog simulator:
-   ```bash
-   iverilog -o sim/sequence_detector rtl/sequence_detector.v tb/tb_sequence_detector.v
-   ```
-3. Run the simulation:
-   ```bash
-   vvp sim/sequence_detector
-   ```
-4. View waveforms:
-   ```bash
-   gtkwave sim/sequence_detector.vcd
-   ```
-
+  
 ### Results
 The testbench demonstrates successful detection of the "01111110" sequence with proper timing and state transitions.
 
