@@ -14,6 +14,11 @@ This project implements a sequence detector in Verilog HDL that identifies the s
 ### Requirements
 - Verilog simulator (Icarus Verilog, ModelSim, etc.)
 - Waveform viewer (GTKWave) for viewing simulation results
+
+## How to run the simulation file?
+- Download the zip file from the repository.
+- Open Quartus Prime and go to "Open projects".
+- Open the project file with a .qpf extension. The file will be named "sequence_detector2.qpf".
   
 ### Results
 The testbench demonstrates successful detection of the "01111110" sequence with proper timing and state transitions.
