@@ -11,20 +11,6 @@ This project implements a sequence detector in Verilog HDL that identifies the s
 - Synthesizable RTL design
 - Detailed documentation including state diagram and timing analysis
 
-### Repository Structure
-```
-/sequence_detector/
-│── /docs/                # Documentation files
-│   └── DLD_OEL.pdf       # Project report
-│── /rtl/                 # Verilog source files
-│   └── sequence_detector.v
-│── /tb/                  # Testbench files
-│   └── tb_sequence_detector.v
-│── /sim/                 # Simulation results
-│   └── sequence_detector.vcd
-│── README.md             # This file
-```
-
 ### Requirements
 - Verilog simulator (Icarus Verilog, ModelSim, etc.)
 - Waveform viewer (GTKWave) for viewing simulation results
